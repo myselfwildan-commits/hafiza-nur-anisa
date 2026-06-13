@@ -52,7 +52,7 @@ export default function VideoSection({ onBack, onGame }) {
       text-pink-500
     "
           style={{
-            fontFamily: "Caveat",
+            fontFamily: "serif",
           }}
         >
           Kenangan Kita 🤍

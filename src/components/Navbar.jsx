@@ -26,7 +26,7 @@ export default function Navbar({ onKenangan, onKita, onGame }) {
       >
         <h1
           className="
-            text-lg
+            text-sm
             md:text-2xl
             font-bold
             text-pink-500

@@ -14,7 +14,7 @@ export default function GameSection({ onBack }) {
   const GAP_HEIGHT = 220;
   const HEART_SIZE = 70;
 
-  const SPEED = 2;
+  const SPEED = 3.5;
 
   // =========================
   // 🎯 ATUR JARAK DI SINI
