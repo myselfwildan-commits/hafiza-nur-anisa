@@ -19,7 +19,7 @@ export default function GameSection({ onBack }) {
   // =========================
   // 🎯 ATUR JARAK DI SINI
   // =========================
-  const NISA_X = 300;
+  const NISA_X = 270;
   const GAP_TO_NISA = 120;
   const TARGET_X = NISA_X - GAP_TO_NISA;
 

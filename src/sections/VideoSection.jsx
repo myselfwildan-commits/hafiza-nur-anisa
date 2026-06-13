@@ -58,7 +58,10 @@ export default function VideoSection({ onBack, onGame }) {
           Kenangan Kita 🤍
         </h1>
 
-        <p className="text-pink-400 mt-2 text-lg">
+        <p
+          className="text-pink-400 mt-2 text-lg"
+          style={{ fontFamily: "serif" }}
+        >
           Beberapa momen yang tidak akan aku lupakan
         </p>
       </motion.div>

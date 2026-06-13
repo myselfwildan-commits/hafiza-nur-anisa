@@ -69,9 +69,9 @@ export default function MainMessageSection({ onFinish, musicRef }) {
 
         setTimeout(() => {
           setShow(false);
-        }, 1500);
+        }, 2000);
       }
-    }, 35);
+    }, 40);
 
     return () => {
       clearInterval(typing);
