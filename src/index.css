@@ -18,6 +18,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.font-romantic {
+  font-family: "Caveat", cursive;
+}
+
 .sakura {
   position: absolute;
   top: -50px;

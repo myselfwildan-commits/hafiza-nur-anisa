@@ -134,10 +134,8 @@ export default function MainMessageSection({ onFinish, musicRef }) {
                 md:text-3xl
                 leading-relaxed
                 whitespace-pre-line
+                font-romantic
               "
-              style={{
-                fontFamily: "Caveat",
-              }}
             >
               {typed}
             </p>
