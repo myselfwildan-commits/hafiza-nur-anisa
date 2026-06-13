@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+/* @theme {
+  --font-romantic: "Dancing Script", cursive;
+  --font-main: "Poppins", sans-serif;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #f9e7ef;
+}
+
+.sakura {
+  position: absolute;
+  top: -50px;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-50px) translateX(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(50vh) translateX(30px) rotate(180deg);
+  }
+
+  100% {
+    transform: translateY(110vh) translateX(-30px) rotate(360deg);
+  }
+}
