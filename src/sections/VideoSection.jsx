@@ -11,7 +11,7 @@ import couple6 from "../assets/couple/couple6.mp4";
 import couple7 from "../assets/couple/couple7.mp4";
 import couple8 from "../assets/couple/couple8.mp4";
 
-export default function VideoSection({ onBack, onGame }) {
+export default function VideoSection({ onBack, onGame, onKita }) {
   return (
     <section
       id="video"
@@ -34,7 +34,7 @@ export default function VideoSection({ onBack, onGame }) {
             behavior: "smooth",
           })
         }
-        onKita={() => {}}
+        onKita={onKita}
         onGame={onGame}
       />
 
